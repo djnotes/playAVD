@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:propertyName="pathData"
+                android:valueFrom="M10.9581,38.75a28.7315,12.5617 0,1 0,57.4629 0a28.7315,12.5617 0,1 0,-57.4629 0z"
+                android:valueTo="M32.2827,38.3491a8.6095,34.1337 0,1 0,17.219 0a8.6095,34.1337 0,1 0,-17.219 0z"
+                android:duration="@android:integer/config_longAnimTime"
+                android:repeatCount="infinite"
+                android:valueType="pathType"
+                xmlns:android="http://schemas.android.com/apk/res/android"/>
