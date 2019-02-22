@@ -43,6 +43,14 @@
                app:layout_constraintStart_toStartOf="parent"
                app:layout_constraintBottom_toBottomOf="parent"
     />
+    <ImageView
+            android:id="@+id/tongue"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/avd_tongue"
+    />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

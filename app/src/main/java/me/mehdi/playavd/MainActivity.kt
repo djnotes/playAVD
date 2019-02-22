@@ -30,6 +30,11 @@ class MainActivity : AppCompatActivity() {
             writing.visibility = View.VISIBLE
             val avdWriting = writing.drawable as AnimatedVectorDrawable
             avdWriting.start()
+
+            val tongue = findViewById(R.id.tongue) as ImageView
+            val avdTongue = tongue.drawable as AnimatedVectorDrawable
+            avdTongue.start()
+
         }
     }
 }
