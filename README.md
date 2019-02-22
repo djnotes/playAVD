@@ -7,3 +7,7 @@
 ## Using an animator set (path morphing + rotation)
 
 ![Demo of AVD with animator set](img/avd2.gif)
+
+
+## Animating a Writing 
+![Text AVD Animation](img/play_avd_writing.gif)
