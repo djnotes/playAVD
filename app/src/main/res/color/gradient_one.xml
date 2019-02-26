@@ -6,6 +6,5 @@
           android:tileMode="repeat"
 >
     <item android:color="#FF5722" android:offset="0.3"/>
-    <item android:color="#FFC107" android:offset="0.6"/>
     <item android:color="#2E7D32" android:offset="0.8"/>
 </gradient>

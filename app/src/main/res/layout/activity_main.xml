@@ -6,6 +6,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity"
+        android:background="@drawable/avd_tongue"
+        android:theme="@style/AlternativeTheme"
 >
 
     <ImageButton
@@ -24,6 +26,8 @@
                app:layout_constraintEnd_toEndOf="parent"
                app:layout_constraintBottom_toBottomOf="parent"
                android:src="@drawable/avd_man"
+               android:focusable="true"
+               android:clickable="true"
     />
     <ImageView
             android:id="@+id/myAvd"
@@ -64,6 +68,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:text="This is a TextView"
+            android:textColor="?attr/colorPrimary"
+            android:theme="@style/AlternativeTheme"
     />
 
 

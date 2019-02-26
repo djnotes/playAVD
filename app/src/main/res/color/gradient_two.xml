@@ -2,10 +2,10 @@
 <gradient xmlns:android="http://schemas.android.com/apk/res/android" android:type="radial"
           android:gradientRadius="10"
           android:centerX="50"
-          android:centerColor="#f00"
+          android:centerColor="#0277BD"
           android:tileMode="repeat"
 >
-    <item android:color="#FF5722" android:offset="0.3"/>
-    <item android:color="#FFC107" android:offset="0.6"/>
-    <item android:color="#2E7D32" android:offset="0.8"/>
+    <item android:color="#FDF8F7" android:offset="0.3"/>
+    <item android:color="#FF0724" android:offset="0.6"/>
+    <item android:color="#7D2E7C" android:offset="0.8"/>
 </gradient>

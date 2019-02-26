@@ -11,3 +11,7 @@
 
 ## Animating a Writing 
 ![Text AVD Animation](img/play_avd_writing.gif)
+
+
+## Animating Vector Color
+![Animating color](img/color_animation.gif)
