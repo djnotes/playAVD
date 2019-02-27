@@ -1,8 +1,8 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:height="64dp"
-        android:width="64dp"
-        android:viewportHeight="10"
-        android:viewportWidth="10" >
+        android:height="300dp"
+        android:width="200dp"
+        android:viewportHeight="24"
+        android:viewportWidth="24" >
     <group
             android:name="rotationGroup"
             android:pivotX="5"
@@ -10,10 +10,9 @@
              >
         <path
                 android:name="v"
-                android:strokeWidth="1"
                 android:strokeColor="@color/colorPrimary"
-                android:fillColor="#FF5722"
-                android:pathData="M0,5 L0,0 10,0 10,5 5,10z" />
+                android:fillColor="@color/gradient_one"
+                android:pathData="M0,10 L0,0 10,0 10,10" />
     </group>
 </vector>
  

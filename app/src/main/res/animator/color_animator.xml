@@ -1,19 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!--<objectAnimator android:propertyName="fillColor"-->
+                    <!--android:repeatCount="infinite"-->
+                    <!--android:duration="@android:integer/config_longAnimTime"-->
+                    <!--android:valueType="colorType"-->
+                    <!--android:valueFrom="#C62828"-->
+                    <!--android:valueTo="#FAF9F0"-->
+
+    <!--/>-->
+    <!--<objectAnimator android:propertyName="fillColor"-->
+                    <!--android:repeatCount="infinite"-->
+                    <!--android:duration="@android:integer/config_longAnimTime"-->
+                    <!--android:valueType="colorType"-->
+                    <!--android:valueFrom="#00695C"-->
+                    <!--android:valueTo="#FD006E"-->
+    <!--/>-->
+    <!--<objectAnimator android:propertyName="fillColor"-->
+                    <!--android:repeatCount="infinite"-->
+                    <!--android:duration="@android:integer/config_longAnimTime"-->
+                    <!--android:valueType="colorType"-->
+                    <!--android:valueFrom="#2E7D32"-->
+                    <!--android:valueTo="#F9A825"-->
+    <!--/>-->
+    <!--<objectAnimator android:propertyName="fillColor"-->
+                    <!--android:repeatCount="infinite"-->
+                    <!--android:duration="@android:integer/config_longAnimTime"-->
+                    <!--android:valueType="colorType"-->
+                    <!--android:valueFrom="#F9A825"-->
+                    <!--android:valueTo="#1565C0"-->
+    <!--/>-->
+    <!--<objectAnimator android:propertyName="fillColor"-->
+                    <!--android:repeatCount="infinite"-->
+                    <!--android:duration="@android:integer/config_longAnimTime"-->
+                    <!--android:valueType="colorType"-->
+                    <!--android:valueFrom="#D84315"-->
+                    <!--android:valueTo="#7D692E"-->
+    <!--/>-->
     <objectAnimator android:propertyName="fillColor"
                     android:repeatCount="infinite"
                     android:duration="@android:integer/config_longAnimTime"
                     android:valueType="colorType"
-                    android:valueFrom="#FF5722"
-                    android:valueTo="#2E7D32"
-
-                    />
-    <objectAnimator android:propertyName="strokeColor"
-                    android:repeatCount="infinite"
-                    android:duration="@android:integer/config_longAnimTime"
-                    android:valueType="colorType"
-                    android:valueFrom="@color/colorPrimary"
-                    android:valueTo="@color/colorAccent"
-                    />
+                    android:valueFrom="#C62828"
+                    android:valueTo="#6A1B9A"
+    />
+<objectAnimator android:duration="@android:integer/config_longAnimTime"
+                android:repeatCount="infinite"
+                android:valueFrom="0"
+                android:valueTo="360"
+                android:valueType="floatType"
+                />
 </set>

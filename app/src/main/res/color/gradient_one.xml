@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <gradient xmlns:android="http://schemas.android.com/apk/res/android" android:type="radial"
-          android:gradientRadius="10"
-          android:centerX="50"
-          android:centerColor="#f00"
+          android:startY="0"
+          android:startX="0"
+          android:centerX="5"
+          android:centerY="5"
+          android:gradientRadius="1"
           android:tileMode="repeat"
 >
-    <item android:color="#FF5722" android:offset="0.3"/>
-    <item android:color="#2E7D32" android:offset="0.8"/>
+    <item android:color="#E91E63" android:offset="0.1"/>
+    <item android:color="#E91E63" android:offset="0.3"/>
+    <item android:color="#3F51B5" android:offset="0.3"/>
+    <item android:color="#3F51B5" android:offset="0.6"/>
+    <item android:color="#03A9F4" android:offset="0.6"/>
+    <item android:color="#03A9F4" android:offset="0.9"/>
+    <item android:color="#8BC34A" android:offset="0.1"/>
+
+
 </gradient>

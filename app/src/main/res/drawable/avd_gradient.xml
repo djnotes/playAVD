@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/my_vector">
 
-    <target android:animation="@animator/color_animator" android:name="v"/>
+    <target android:animation="@animator/color_animator" android:name="rotationGroup"/>
+
 </animated-vector>

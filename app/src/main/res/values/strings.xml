@@ -3,4 +3,5 @@
     <string name="path_play">m87.69,120.863 l1.512,65.012 49.893,-31.75z</string>
     <string name="path_pause">m81.643,141.274 l40.821,-0.756 -40.065,0.756z</string>
     <string name="play_button_description">Play Button Description</string>
+    <string name="avd_fragment">avd_fragment</string>
 </resources>

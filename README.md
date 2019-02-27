@@ -15,3 +15,6 @@
 
 ## Animating Vector Color
 ![Animating color](img/color_animation.gif)
+
+## Added fragment for better demo 
+![Fragment](img/demo-fragment.gif)
