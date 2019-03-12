@@ -8,59 +8,30 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.ImageView
+import androidx.recyclerview.widget.RecyclerView
+import com.leochuan.CarouselLayoutManager
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), RecyclerAdapter.ItemClickListener{
+    override fun onClick(image: ImageView) {
+        val avd = image.drawable as AnimatedVectorDrawable
+        avd.start()
+    }
+
+    val mDrawables = arrayOf(R.drawable.avd_heart, R.drawable.avd_tongue, R.drawable.avd_man, R.drawable.avd_writing, R.drawable.avd_clip_path)
+    lateinit var mRecyclerView: RecyclerView
 
     lateinit var mHeartBtn:ImageButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        mRecyclerView = findViewById<RecyclerView>(R.id.recyclerView)
+        val layoutManager = CarouselLayoutManager(applicationContext, 1)
+        layoutManager.infinite = true
+        mRecyclerView.layoutManager = layoutManager
+        val adapter = RecyclerAdapter(applicationContext, mDrawables)
+        adapter.setItemClickListener(this)
+        mRecyclerView.adapter = adapter
 
-        val rootVG = findViewById<ViewGroup>(R.id.root)
-
-        val animatedGradient = rootVG.background as AnimatedVectorDrawable
-
-        animatedGradient.start()
-
-        val mPlayImage: ImageView = findViewById(R.id.play)
-
-
-        val myAvd = findViewById<ImageView>(R.id.myAvd).background as AnimatedVectorDrawable
-        myAvd.start()
-        mPlayImage.setOnClickListener {
-
-            val play = mPlayImage.drawable as AnimatedVectorDrawable
-            play.start()
-            val avdMan = findViewById<ImageView>(R.id.man).drawable as AnimatedVectorDrawable
-            avdMan.start()
-
-
-            val writing = findViewById(R.id.writing) as ImageView
-            writing.visibility = View.VISIBLE
-            val avdWriting = writing.drawable as AnimatedVectorDrawable
-            avdWriting.start()
-
-            val tongue = findViewById(R.id.tongue) as ImageView
-            val avdTongue = tongue.drawable as AnimatedVectorDrawable
-            avdTongue.start()
-
-        }
-
-        mHeartBtn = findViewById(R.id.heart)
-
-        mHeartBtn.setOnClickListener {
-            val avdFragment = AvdFragment()
-            val fragArgs = Bundle();
-            fragArgs.putInt(AvdFragment.AVD_RES, R.drawable.avd_heart)
-            avdFragment.arguments = fragArgs
-            avdFragment.enterTransition = Slide()
-
-            val fragTransaction = supportFragmentManager.beginTransaction()
-            fragTransaction.add(R.id.fragment_container, avdFragment)
-            fragTransaction.addToBackStack("my_fragment")
-            fragTransaction.commit()
-
-        }
     }
 }

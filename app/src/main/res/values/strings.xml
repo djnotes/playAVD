@@ -4,4 +4,7 @@
     <string name="path_pause">m81.643,141.274 l40.821,-0.756 -40.065,0.756z</string>
     <string name="play_button_description">Play Button Description</string>
     <string name="avd_fragment">avd_fragment</string>
+    <string name="title">Item Title</string>
+    <string name="item_image">Item Image</string>
+    <string name="item_title">Item Title</string>
 </resources>
