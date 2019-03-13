@@ -7,4 +7,10 @@
     <string name="title">Item Title</string>
     <string name="item_image">Item Image</string>
     <string name="item_title">Item Title</string>
+    <string name="heart">Heart</string>
+    <string name="tongue">Tongue</string>
+    <string name="man">Man</string>
+    <string name="heart_filling">Heart Filling</string>
+    <string name="clip_path">Clip Path</string>
+    <string name="placeholder">Place Holder</string>
 </resources>
