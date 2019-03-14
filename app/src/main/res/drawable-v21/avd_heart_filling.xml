@@ -11,33 +11,31 @@
             <group android:name="group">
                 <clip-path
                     android:name="mask"
-                    android:pathData="M 120.196 58.054 C 243.738 14.638 114.478 174.319 114.478 176.549 C 17.097 -8.92 110.161 48.762 120.196 58.054"/>
+                    android:pathData="M 114.106 100.354 C 141.022 60.591 190.417 80.439 146.354 144.421 C 128.304 170.631 114.478 185.469 114.478 185.469 C 16.726 72.85 82.885 61.327 114.106 100.354"/>
                 <path
-                    android:name="heart"
-                    android:pathData="M 120.196 58.054 C 243.738 14.638 114.478 174.319 114.478 176.549 C 17.097 -8.92 110.161 48.762 120.196 58.054"
-                    android:fillColor="#ff0000"
+                    android:name="path"
+                    android:pathData="M 114.106 100.354 C 141.022 60.591 190.417 80.439 146.354 144.421 C 128.304 170.631 114.478 185.469 114.478 185.469 C 16.726 72.85 82.885 61.327 114.106 100.354"
+                    android:strokeColor="#000000"
+                    android:strokeWidth="2"/>
+                <path
+                    android:name="path_1"
+                    android:pathData="M 57.611 68.389 L 176.177 68.389 L 176.177 189.929 L 57.611 189.929 Z"
                     android:strokeWidth="0.264583"/>
                 <path
-                    android:name="rect"
-                    android:pathData="M 57.452 29.363 L 185.469 29.363 L 185.469 185.054 L 57.452 185.054 Z"
-                    android:strokeWidth="0.1"
-                    android:strokeLineCap="round"
-                    android:strokeLineJoin="round"/>
-                <path
-                    android:name="line"
-                    android:pathData="M 57.453 185.053 L 184.567 186.541"
+                    android:name="path_2"
+                    android:pathData="M 57.18 189.926 L 176.18 189.926 L 176.18 191.098 L 57.18 191.098 Z"
                     android:fillColor="#ff0000"
-                    android:strokeWidth="0.244183"/>
+                    android:strokeWidth="0.043216"/>
             </group>
         </vector>
     </aapt:attr>
-    <target android:name="mask">
+    <target android:name="path_2">
         <aapt:attr name="android:animation">
             <objectAnimator
                 android:propertyName="pathData"
                 android:duration="300"
-                android:valueFrom="M 57.453 185.053 L 65.988 185.153 L 73.342 185.239 L 82.567 185.347 L 89.231 185.425 L 97.176 185.518 L 105.121 185.611 L 111.624 185.687 L 121.01 185.797 L 131.532 185.92 L 136.899 185.983 L 144.844 186.076 L 152.788 186.169 L 163.899 186.299 L 171.369 186.386 L 176.348 186.445 L 184.567 186.541"
-                android:valueTo="M 57.452 185.054 L 66.818 185.054 L 78.439 185.054 L 92.549 185.054 L 102.51 185.054 L 110.81 185.054 L 121.601 185.054 L 133.221 185.054 L 144.012 185.054 L 152.312 185.054 L 163.103 185.054 L 171.403 185.054 L 176.383 185.054 L 185.469 185.054 L 185.469 29.363 L 57.452 29.363 L 57.452 185.054"
+                android:valueFrom="M 57.18 189.926 L 176.18 189.926 L 176.18 191.098 L 57.18 191.098 Z"
+                android:valueTo="M 57.611 68.389 L 176.177 68.389 L 176.177 189.929 L 57.611 189.929 Z"
                 android:valueType="pathType"
                 android:interpolator="@android:interpolator/fast_out_slow_in"/>
         </aapt:attr>
