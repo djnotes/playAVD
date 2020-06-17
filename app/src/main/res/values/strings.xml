@@ -13,4 +13,8 @@
     <string name="heart_filling">Heart Filling</string>
     <string name="clip_path">Clip Path</string>
     <string name="placeholder">Place Holder</string>
+    <string name="enter">Enter</string>
+    <string name="welcome">Welcome</string>
+    <string name="to_preposition">To</string>
+    <string name="animation_playground">Animation Playground</string>
 </resources>

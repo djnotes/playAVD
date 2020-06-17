@@ -7,6 +7,7 @@
               android:focusable="true"
               android:clickable="true"
               android:id="@+id/root"
+        android:background="@color/cardview_light_background"
 >
     <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
               android:text="@string/item_title"
